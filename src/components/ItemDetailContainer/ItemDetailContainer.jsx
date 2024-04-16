@@ -8,13 +8,13 @@ const ItemDetailContainer = () => {
 
   const { idProduct } = useParams()
 
-  useEffect(()=>{
+  useEffect(() => {
     getProducts
-      .then((respuesta)=> {
-        const newProduct = respuesta.find((product)=> product.id === idProduct )
+      .then((respuesta) => {
+        const newProduct = respuesta.find((product) => product.id === idProduct)
         setProduct(newProduct)
       })
-      .catch((error)=> console.log(error))
+      .catch((error) => console.log(error))
   }, [idProduct])
 
   return (

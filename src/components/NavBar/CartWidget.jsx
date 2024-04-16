@@ -61,7 +61,7 @@ const CartWidget = () => {
             <button className="pepe" onClick={toggleCart}>X</button>
           </div>
         </div>
-        
+
       )}
     </div>
   );

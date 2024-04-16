@@ -1,33 +1,38 @@
-.navbar{
+.navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
   border-bottom: 2px solid black;
-  background-color: rgb(0, 51, 153); /* Fondo azul */
-  color: white; /* Letras blancas */
-  font-weight: bold; /* Letras en negrita */
-  text-transform: uppercase; /* Texto en mayúsculas */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra en el texto */
+  background-color: rgb(0, 51, 153);
+  /* Fondo azul */
+  color: white;
+  /* Letras blancas */
+  font-weight: bold;
+  /* Letras en negrita */
+  text-transform: uppercase;
+  /* Texto en mayúsculas */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* Sombra en el texto */
 }
 
-.brand-navbar{
+.brand-navbar {
   height: 80%;
 }
 
-.icon-navbar{
+.icon-navbar {
   height: 100%;
   margin: 0 20px;
 }
 
-.categories-navbar{
+.categories-navbar {
   display: flex;
   align-items: center;
   list-style: none;
 }
 
-.categorie-navbar{
+.categorie-navbar {
   font-weight: 500;
   text-align: center;
   width: auto;
@@ -36,14 +41,16 @@
   margin: 0 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: white; /* Letras blancas */
+  color: white;
+  /* Letras blancas */
 }
 
-.categorie-navbar:hover{
-  background-color: rgb(0, 51, 153); /* Fondo azul */
+.categorie-navbar:hover {
+  background-color: rgb(0, 51, 153);
+  /* Fondo azul */
 }
 
-.cartwidget{
+.cartwidget {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +58,7 @@
   font-weight: bold;
 }
 
-.cartwidget:hover{
+.cartwidget:hover {
   cursor: pointer;
 }
 
@@ -62,20 +69,31 @@
 }
 
 .brand-navbar h1 {
-  color: white; /* Letras blancas */
-  margin-left: 10px; /* Separación del icono */
-  font-size: 30px; /* Tamaño de fuente */
-  font-weight: bold; /* Texto en negrita */
-  text-transform: uppercase; /* Texto en mayúsculas */
-  text-shadow: 2px 2px 4px rgba(253, 1, 1, 0.6); /* Sombra en el texto */
+  color: white;
+  /* Letras blancas */
+  margin-left: 10px;
+  /* Separación del icono */
+  font-size: 30px;
+  /* Tamaño de fuente */
+  font-weight: bold;
+  /* Texto en negrita */
+  text-transform: uppercase;
+  /* Texto en mayúsculas */
+  text-shadow: 2px 2px 4px rgba(253, 1, 1, 0.6);
+  /* Sombra en el texto */
 }
 
 .brand-title {
   font-size: 26px;
   font-weight: bold;
-  color: #fcfbfb; /* Color del texto */
-  margin-left: 10px; /* Espacio entre el icono y el título */
-  text-transform: uppercase; /* Texto en mayúsculas */
-  letter-spacing: 1px; /* Espaciado entre letras */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra en el texto */
+  color: #fcfbfb;
+  /* Color del texto */
+  margin-left: 10px;
+  /* Espacio entre el icono y el título */
+  text-transform: uppercase;
+  /* Texto en mayúsculas */
+  letter-spacing: 1px;
+  /* Espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  /* Sombra en el texto */
 }

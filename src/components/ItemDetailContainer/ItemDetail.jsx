@@ -11,7 +11,7 @@ const ItemDetail = ({ product }) => {
         <Link to="/" className="button-back">Volver</Link>
       </div>
       <div className="image-detail">
-      <img src={product.image} style={{ maxWidth: "100%" }} />
+        <img src={product.image} style={{ maxWidth: "100%" }} />
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ const AboutUs = () => {
     <div className="about-us-container">
       <h2 className="about-us-title">Acerca de nosotros</h2>
       <p className="about-us-text">
-        Paulo's es una empresa chilena, que comenzó sus operaciones en abril 
-        del año 2024, transformándose durante este tiempo, en la mayor cadena 
+        Paulo's es una empresa chilena, que comenzó sus operaciones en abril
+        del año 2024, transformándose durante este tiempo, en la mayor cadena
         de tiendas especialista en tecnología del país. Empezamos nuestra historia
         enfocados en el rubro de las computadoras de escritorio, pero crecimos
         sin parar hasta lograr un mix inigualable de productos tecnológicos,

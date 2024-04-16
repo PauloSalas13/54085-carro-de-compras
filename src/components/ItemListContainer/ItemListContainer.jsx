@@ -12,11 +12,11 @@ const ItemListContainer = ({ saludo }) => {
   useEffect(() => {
     getProducts
       .then((respuesta) => {
-        if(idCategory){
+        if (idCategory) {
           //filtrar los productos
-          const newProducts = respuesta.filter((producto)=> producto.category === idCategory )
+          const newProducts = respuesta.filter((producto) => producto.category === idCategory)
           setProducts(newProducts)
-        }else{
+        } else {
           //devolver todos los productos
           setProducts(respuesta)
         }

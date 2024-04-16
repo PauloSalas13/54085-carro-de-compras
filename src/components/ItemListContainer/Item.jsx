@@ -22,7 +22,7 @@ const Item = ({ product }) => {
     setCartQuantity(cart.length); // Update cart quantity
     openPopup();
   };
-  
+
 
   return (
     <div key={product.id} className="card">
@@ -60,23 +60,23 @@ const Item = ({ product }) => {
       {isPopupOpen && (
         <div className="modal-overlay">
           <div className="modal-content" style={{ width: "400px", height: "600px" }}>
-              <button className="close-button" onClick={closePopup}>
-                X
-              </button>
-              <h3>¡Felicidades! Agregaste {product.name} a tu carro.</h3>
-              <img
-                className="product-image-modal"
-                src={product.image}
-                alt={product.name}
-                style={{ width: "280px", height: "390px" }}
-              />
-                <div className="button-container">
-                  <button>Seguir Comprando</button>
-                  <div>
-                    <button>Ver Carro</button>
-                    <button>Pagar Ahora</button>
-                  </div>
-                </div>
+            <button className="close-button" onClick={closePopup}>
+              X
+            </button>
+            <h3>¡Felicidades! Agregaste {product.name} a tu carro.</h3>
+            <img
+              className="product-image-modal"
+              src={product.image}
+              alt={product.name}
+              style={{ width: "280px", height: "390px" }}
+            />
+            <div className="button-container">
+              <button>Seguir Comprando</button>
+              <div>
+                <button>Ver Carro</button>
+                <button>Pagar Ahora</button>
+              </div>
+            </div>
           </div>
         </div>
       )}
