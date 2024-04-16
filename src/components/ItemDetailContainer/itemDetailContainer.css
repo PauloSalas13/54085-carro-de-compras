@@ -1,0 +1,31 @@
+.item-detail{
+  width: 100%;
+  display: flex;
+  padding: 100px 10px;
+}
+
+.info-detail{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+.info-detail .title{
+  padding: 10px 0;
+}
+.info-detail .description, .price{
+  padding: 10px 0;
+  font-size: 20px;
+  font-style: italic;
+}
+.image-detail{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  white-space: pre-line; /* Permite los saltos de línea */
+  overflow: auto; /* Añade una barra de desplazamiento si es necesario */
+  max-height: 300px; /* Altura máxima para evitar un contenido demasiado largo */
+}
